@@ -26,7 +26,7 @@ def find_min_value(array)
   max = find_max_value(array)
   min = nil
   array.length.times { |index|
-    if max < 0
+    if max > 0
       min = array[index]
     end
   }
