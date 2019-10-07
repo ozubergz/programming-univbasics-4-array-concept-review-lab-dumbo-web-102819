@@ -23,5 +23,9 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  # Add your solution here
+  max = find_max_value(array)
+  min = nil
+  array.length.times { |index|
+    if max < 0
+  }
 end
