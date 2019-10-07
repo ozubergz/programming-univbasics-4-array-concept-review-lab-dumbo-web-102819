@@ -27,5 +27,8 @@ def find_min_value(array)
   min = nil
   array.length.times { |index|
     if max < 0
+      min array[index]
+    end
   }
+  min
 end
