@@ -11,14 +11,15 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  greatest = array[0]
+  max = 0
   
   array.length.times { |index|
-    if greatest < array[index]
-      greatest_ = array[index]
+    if max < array[index]
+      max = array[index]
     end
   }
-  greatest
+  
+  max
 end
 
 def find_min_value(array)
