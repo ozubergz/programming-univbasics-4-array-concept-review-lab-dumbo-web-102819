@@ -1,7 +1,9 @@
 def find_element_index(array, value_to_find)
   index_found = 0
   
-  array.length.times 
+  array.length.times { ||
+    
+  }
 end
 
 def find_max_value(array)
